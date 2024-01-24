@@ -1,0 +1,41 @@
+#titleDiv {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#buttons {
+    padding-top: 5px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana;
+}
+  
+.square {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
